@@ -23,6 +23,8 @@ module.exports = {
       animation: {
         sunGraphic: 'sunGraphicPosition forwards 1.5s ease-in-out',
         sunTranslate: 'sunRotate forwards 1.5s ease-in-out',
+        cloudWhite: 'cloud 3s ease-in-out infinite',
+        cloudGray: 'cloud 3s ease-in-out infinite 0.25s',
       },
       keyframes: {
         sunGraphicPosition: {
@@ -33,6 +35,14 @@ module.exports = {
         sunRotate: {
           '0%': {
             transform: 'rotate(0)',
+          },
+        },
+        cloud: {
+          '0%, 100%': {
+            transform: 'translateX(0rem)',
+          },
+          '50%': {
+            transform: 'translateX(1rem)',
           },
         },
       },

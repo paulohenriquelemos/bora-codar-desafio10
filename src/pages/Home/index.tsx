@@ -13,12 +13,12 @@ export function Home() {
         <img
           src={cloudGray}
           alt="Núvem cinza"
-          className="absolute w-[23%] sm:w-auto -top-4 left-2 sm:left-0"
+          className="absolute w-[23%] sm:w-auto -top-4 left-2 sm:left-0 animate-cloudGray"
         />
         <img
           src={cloudWhite}
           alt="Núvem branca"
-          className="absolute w-[26%] sm:w-auto -top-2 -left-4 sm:-left-12"
+          className="absolute w-[26%] sm:w-auto -top-2 -left-4 sm:-left-12 animate-cloudWhite"
         />
         <span className="absolute top-8 right-8 text-purple300 text-sm font-bold flex items-center gap-1">
           <MapPin size={12} weight="fill" className="text-purple500" />
@@ -134,9 +134,9 @@ export function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full bg-purple700 mt-6 rounded-md p-10 flex flex-col sm:flex-row gap-8 items-center justify-between">
+        <div className="w-full bg-purple700 mt-6 rounded-md p-6 flex flex-col sm:flex-row gap-8 items-center justify-between">
           <div className="flex flex-col items-center justify-between">
-            <span className="text-lg sm:text-sm text-purple200 font-bold">
+            <span className="text-lg sm:text-sm text-purple200 font-bold whitespace-nowrap">
               Amanhã
             </span>
             <div className="mt-4 h-16 relative">
@@ -153,7 +153,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-between">
-            <span className="text-lg sm:text-sm text-purple200 font-bold">
+            <span className="text-lg sm:text-sm text-purple200 font-bold whitespace-nowrap">
               Sexta-Feira
             </span>
             <div className="mt-4 h-16">
@@ -165,7 +165,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-between">
-            <span className="text-lg sm:text-sm text-purple200 font-bold">
+            <span className="text-lg sm:text-sm text-purple200 font-bold whitespace-nowrap">
               Sábado
             </span>
             <div className="mt-4 h-16">
@@ -194,7 +194,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-between">
-            <span className="text-lg sm:text-sm text-purple200 font-bold">
+            <span className="text-lg sm:text-sm text-purple200 font-bold whitespace-nowrap">
               Domingo
             </span>
             <div className="mt-4 h-16 flex flex-col items-center gap-1">
@@ -207,7 +207,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-between">
-            <span className="text-lg sm:text-sm text-purple200 font-bold">
+            <span className="text-lg sm:text-sm text-purple200 font-bold whitespace-nowrap">
               Segunda-Feira
             </span>
             <div className="mt-4 h-16 relative">
