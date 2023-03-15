@@ -32,6 +32,7 @@ export function HorarioSol({ percentage }: HorarioSolProps) {
           width={(sqrBox * percentage) / 100}
           height={sqrBox / 2}
           fill="white"
+          className="animate-sunGraphic"
         />
       </mask>
       <path
@@ -72,8 +73,9 @@ export function HorarioSol({ percentage }: HorarioSolProps) {
         cx={yPos}
         cy={xPos}
         r="1"
-        transform={`rotate(${anguloGraus} ${xPos} ${xPos})`}
+        transform={`rotate(${anguloGraus})`}
         fill="#F6C833"
+        className="animate-sunTranslate origin-sun"
       ></circle>
     </svg>
   )

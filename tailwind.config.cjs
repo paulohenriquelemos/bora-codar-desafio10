@@ -20,6 +20,25 @@ module.exports = {
       backgroundImage: {
         'bg-card': "url('/src/assets/bg-card.svg')",
       },
+      animation: {
+        sunGraphic: 'sunGraphicPosition forwards 1.5s ease-in-out',
+        sunTranslate: 'sunRotate forwards 1.5s ease-in-out',
+      },
+      keyframes: {
+        sunGraphicPosition: {
+          '0%': {
+            width: '0px',
+          },
+        },
+        sunRotate: {
+          '0%': {
+            transform: 'rotate(0)',
+          },
+        },
+      },
+      transformOrigin: {
+        sun: '18px 18px',
+      },
     },
   },
   plugins: [],
