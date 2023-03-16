@@ -2,6 +2,10 @@
 
 Este projeto consiste em desenvolver um layout responsivo de uma página de clima conforme o modelo do [Figma](https://www.figma.com/community/file/1215291914714743267)
 
+<h2> Deploy </h2>
+
+[Clique aqui](https://bora-codar-desafio10.vercel.app) para abrir.
+
 <h2>👩‍💻 Tecnologias</h2>
   
 ![React Badge](https://img.shields.io/badge/ReactJs-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) <br>
