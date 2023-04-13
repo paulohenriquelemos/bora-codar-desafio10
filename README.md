@@ -19,5 +19,5 @@ Este projeto consiste em desenvolver um layout responsivo de uma página de clim
 Agradecimento ao [Wilian Silva](https://github.com/Wilian-N-Silva) por ter contribuído para fazer o gráfico do Hoário do Sol que, sem dúvidas, foi o maior desafio desse projeto.
 
 <p align="center">
-  <img src="./src/assets/BoraCodar-Desafio10.png">
+  <img src="./src/assets/layout.png">
 </p>
